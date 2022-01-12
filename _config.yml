@@ -1,9 +1,9 @@
 # Setup
-title: Dark Poole
-url: https://andrewhwanpark.github.io/dark-poole
+title: Daniel's Blog 
+url: https://dagleaves.github.io/blog
 paginate: 1
-paginate_path: "/dark-poole/page:num/"
-baseurl: "/dark-poole"
+paginate_path: "/blog/page:num/"
+baseurl: "/blog"
 permalink: pretty
 
 # Gems
@@ -33,9 +33,9 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+  name: Daniel Gleaves
+  url: https://github.com/dagleaves
+  email: dgleaves@email.sc.edu
 
 # Custom vars
 version: 3.0.0
@@ -43,7 +43,7 @@ version: 3.0.0
 # Navbar page list
 nav:
   - title: Blog
-    url: /dark-poole/archive
+    url: /blog/archive
 
   - title: About
-    url: /dark-poole/about
+    url: /blog/about
