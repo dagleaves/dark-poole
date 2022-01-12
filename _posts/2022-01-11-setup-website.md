@@ -17,7 +17,7 @@ You can easily create a static site by creating a new GitHub repo titled "%usern
 
 Jekyll is a static site generator written in Ruby. There are numerous other static site generators out there, but Jekyll is the one used by GitHub pages, so it can be used directly without having to manually regenerate the static cite with every change. I installed Jekyll using Linux, as that is what is recommended. If you would like to try to use it on Windows, the instructions to do so can be found on the [Jekyll Website](https://jekyllrb.com/docs/installation/windows/). 
 
-To install Jekyll on Linux (Pop OS):
+To install Jekyll on Linux (Pop OS) to run the site locally:
 
 1. Install Dependencies
 ```
@@ -26,6 +26,10 @@ sudo apt install ruby-full build-essential zlib1g-dev
 2. Install Jekyll
 ```
 sudo gem install jekyll bundler
+```
+3. View the Site Locally - navigate to the main directory of the repo
+```
+jekyll serve
 ```
 NOTE: It recommends setting up a gem directory and not installing them as root \[[src](https://jekyllrb.com/docs/installation/ubuntu/)\]; however, this caused a lot of issues in my case, so I installed it as root anyways.
 
