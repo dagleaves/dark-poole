@@ -1,9 +1,9 @@
 # Setup
 title: Daniel's Blog 
-url: https://dagleaves.github.io
+url: http://dagleaves.github.io
 paginate: 1
 paginate_path: "/page:num/"
-baseurl: "/"
+baseurl: ""
 permalink: pretty
 
 # Gems
