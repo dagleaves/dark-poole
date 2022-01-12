@@ -1,13 +1,17 @@
 # Setup
 title: Daniel's Blog 
-url: https://dagleaves.github.io/blog
+url: https://dagleaves.github.io
 paginate: 1
-paginate_path: "/blog/page:num/"
-baseurl: "/blog"
+paginate_path: "/page:num/"
+baseurl: ""
 permalink: pretty
 
 # Gems
 plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+whitelist:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-seo-tag
@@ -43,7 +47,7 @@ version: 3.0.0
 # Navbar page list
 nav:
   - title: Blog
-    url: /blog/archive
+    url: /archive
 
   - title: About
-    url: /blog/about
+    url: /about
