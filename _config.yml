@@ -4,7 +4,7 @@ url: http://dagleaves.github.io
 paginate: 1
 paginate_path: "/page:num/"
 baseurl: "/"
-permalink: date
+permalink: /:categories/:year/:month/:day/:title
 
 # Gems
 plugins:
