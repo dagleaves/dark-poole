@@ -9,17 +9,4 @@
   color: var(--gray-900);
   background-color: var(--yellow-100);
   border-radius: var(--border-radius);
-  a{
-    color: $blue;
-    text-decoration: underline;
-
-    &:visited{
-      color: $purple;
-      text-decoration: underline;
-    }
-    &:active{
-      color: $red;
-      text-decoration: underline;
-    }
-  }
 }
