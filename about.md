@@ -4,7 +4,7 @@ title: About
 ---
 
 <p class="message">
-  Hey there! This is my personal website! If you spot any errors or have any suggestions for future projects I should pursue, please let me know! Feel free to email me at dgleaves@email.sc.edu for any suggestions or inquiries. If you are a business hiring, feel free to check out my <a href="http://dagleaves.github.io/assets/resume.pdf">resume</a>. Thanks!
+  Hey there! This is my personal website! If you spot any errors or have any suggestions for future projects I should pursue, please let me know! Feel free to email me at dgleaves@email.sc.edu for any suggestions or inquiries. If you are a business hiring, feel free to check out my resume. Thanks!
 </p>
 
 This is the personal blog of Daniel Gleaves. I am currently a sophomore computer science student at the University of South Carolina in Columbia, SC. I am interested in artificial intelligence research and have completed 1+ years of work with the Machine Learning and Evolution Laboratory at UofSC focusing on convolutional graph neural networks for material discovery. I am now working on continous learning neural networks.
