@@ -25,13 +25,13 @@ sudo apt install ruby-full build-essential zlib1g-dev
 ```
 2. Install Jekyll
 ```
-sudo gem install jekyll bundler
+sudo gem install jekyll bundler jekyll-gist jekyll-paginate jekyll-seo-tag jekyll-redirect-from
 ```
 3. View the Site Locally - navigate to the main directory of the repo
 ```
 jekyll serve
 ```
-NOTE: It recommends setting up a gem directory and not installing them as root \[[src](https://jekyllrb.com/docs/installation/ubuntu/)\]; however, this caused a lot of issues in my case, so I installed it as root anyways.
+NOTE: It recommends setting up a gem directory and not installing them as root \[[src](https://jekyllrb.com/docs/installation/ubuntu/)\]; however, this caused a lot of issues in my case, so I installed it as root anyways. Additionally, I use jekyll-redirect-from for my Resume button, but it is not required for the default Dark-Poole installation.
 
 ## Dark Poole
 
