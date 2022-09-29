@@ -48,10 +48,10 @@ version: 3.0.0
 # Navbar page list
 nav:
   - title: Home
-    url: /_nav/archive
+    url: /archive
     
   - title: Resume
-    url: /_nav/resume
+    url: /resume
 
   - title: About
-    url: /_nav/about
+    url: /about
