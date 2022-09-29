@@ -34,13 +34,13 @@ sass:
 # Options
 
 # Replace this value and uncomment to enable Google Analytics tracking
-ga_analytics: G-Q3MZVJ59ZZ
+# ga_analytics: G-Q3MZVJ59ZZ
 
 # Specify the author for blog posts
 author:
   name: Daniel Gleaves
   url: https://github.com/dagleaves
-  email: dgleaves@email.sc.edu
+  email: daniel@dagleaves.com
 
 # Custom vars
 version: 3.0.0
@@ -48,10 +48,10 @@ version: 3.0.0
 # Navbar page list
 nav:
   - title: Home
-    url: /archive
+    url: /_nav/archive
     
   - title: Resume
-    url: /resume
+    url: /_nav/resume
 
   - title: About
-    url: /about
+    url: /_nav/about
