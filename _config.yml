@@ -47,7 +47,7 @@ version: 3.0.0
 
 # Navbar page list
 nav:
-  - title: Blog
+  - title: Home
     url: /archive
     
   - title: Resume
