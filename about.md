@@ -7,7 +7,7 @@ title: About
   Hey there! This is my personal website! If you spot any errors or have any suggestions for future projects I should pursue, please let me know! Feel free to email me at daniel@dagleaves.com for any suggestions or inquiries. Thanks!
 </p>
 
-![me][assets/profile.jpg]
+![me](assets/profile.jpg)
 
 This is the personal blog of Daniel Gleaves (me!). I am currently a third-year computer science student at the University of South Carolina in Columbia, SC. I am interested in artificial intelligence and have completed 2 years of research with the Machine Learning and Evolution Laboratory at UofSC focusing on convolutional graph neural networks for material discovery. I am now working on continous learning neural networks and instance-aware image translation with spatial transformations.
 
