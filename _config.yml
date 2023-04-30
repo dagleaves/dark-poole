@@ -1,7 +1,5 @@
 # Setup
 title: Daniel's Blog 
-name: Daniel Gleaves's Blog
-description: The development blog of Daniel Gleaves
 url: http://dagleaves.com
 paginate: 1
 paginate_path: "/page:num/"
