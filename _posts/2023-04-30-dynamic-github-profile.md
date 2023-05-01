@@ -150,7 +150,7 @@ There are hundreds of available badges. You can find a list of badges [here](htt
 
 ### Badges Code
 
-```markdown
+```
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
@@ -186,7 +186,7 @@ You can see the full list of available tracking in the markdownify link above.
 
 In order to track the entries from this blog, which is hosted by GitHub pages with Jekyll, I use the automatically generated `atom.xml` feed. This can be found at https://dagleaves.github.io/atom.xml.
 
-```markdown
+```
 ## :book: My blog posts
 {{range rss "https://dagleaves.com/atom.xml" 5}}
 - [{{.Title}}]({{.URL}})
@@ -197,7 +197,7 @@ In order to track the entries from this blog, which is hosted by GitHub pages wi
 
 Tracking GitHub contributions is handled entirely by markscribe by providing a personal access token to the readme-scribe action.
 
-```markdown
+```
 ## 👷 I'm currently working on
 {{range recentContributions 5}}
 - [{{.Repo.Name}}]({{.Repo.URL}}) - {{.Repo.Description}} ({{humanize .OccurredAt}})
@@ -228,7 +228,7 @@ The final two pieces are the full template and the GitHub action workflow file.
 4. Enter the full template code:
 
 
-```markdown
+```
 # Hi there, I'm Daniel! :wave:
 
 <img align="left" width="54%" src="https://github-readme-stats.vercel.app/api?username=dagleaves&theme=dark&include_all_commits=true&count_private=true&show_icons=true" />
