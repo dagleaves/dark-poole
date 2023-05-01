@@ -150,7 +150,8 @@ There are hundreds of available badges. You can find a list of badges [here](htt
 
 ### Badges Code
 
-```
+{% raw %}
+```markdown
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
@@ -158,6 +159,7 @@ There are hundreds of available badges. You can find a list of badges [here](htt
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 <a href="https://www.linkedin.com/in/dagleaves/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 ```
+{% endraw %}
 
 If you want to turn them into clickable links, as I did for my LinkedIn profile, simply use the link as the `src` attribute in an `<img>` element and wrap it in an 
 `<a>` anchor element. Set the `href` attribute to where you want it to redirect to.
@@ -186,23 +188,27 @@ You can see the full list of available tracking in the markdownify link above.
 
 In order to track the entries from this blog, which is hosted by GitHub pages with Jekyll, I use the automatically generated `atom.xml` feed. This can be found at https://dagleaves.github.io/atom.xml.
 
-```
+{% raw %}
+```markdown
 ## :book: My blog posts
 {{range rss "https://dagleaves.com/atom.xml" 5}}
 - [{{.Title}}]({{.URL}})
 {{- end}}
 ```
+{% endraw %}
 
 ### GitHub Contributions Tracking
 
 Tracking GitHub contributions is handled entirely by markscribe by providing a personal access token to the readme-scribe action.
 
+{% raw %}
 ```
 ## 👷 I'm currently working on
 {{range recentContributions 5}}
 - [{{.Repo.Name}}]({{.Repo.URL}}) - {{.Repo.Description}} ({{humanize .OccurredAt}})
 {{- end}}
 ```
+{% endraw %}
 
 You can adjust the number of contributions shown by changing the `5` in the top range field. This shows the names, descriptions, and last contribution time for each of my 5 most recent public GitHub contributions.
 
@@ -228,7 +234,8 @@ The final two pieces are the full template and the GitHub action workflow file.
 4. Enter the full template code:
 
 
-```
+{% raw %}
+```markdown
 # Hi there, I'm Daniel! :wave:
 
 <img align="left" width="54%" src="https://github-readme-stats.vercel.app/api?username=dagleaves&theme=dark&include_all_commits=true&count_private=true&show_icons=true" />
@@ -269,6 +276,7 @@ The final two pieces are the full template and the GitHub action workflow file.
 - [{{.Title}}]({{.URL}})
 {{- end}}
 ```
+{% endraw %}
 
 
 # Automatic README generation GitHub action workflow
@@ -284,6 +292,7 @@ mkdir .github/workflows
 
 2. Create the `readme-scribe.yml` workflow file
 
+{% raw %}
 ```yml
 name: Update generated README 
 on:
@@ -322,6 +331,7 @@ jobs:
                     commit_user_email: actions@github.com
                     commit_author: readme-scribe 🤖 <actions@github.com>
 ```
+{% endraw %}
 
 Two important notes: 
 
