@@ -5,7 +5,7 @@ title: Dynamic GitHub Profile
 
 # Dynamic GitHub Profile
 
-If you are only interested in the full code, jump to the [Full dynamic README generation template](#full-dynamic-readme-generation-template) and [Automatic README generation GitHub action workflow](#automatic-readme-generation-github-action-workflow) sections after creating the profile repository in [Make the profile README repository](#make-the-profile-readme-repository) section.
+If you are only interested in the full code, jump to the [Full dynamic README generation template](#full-dynamic-readme-generation-template) and [Automatic README generation GitHub action workflow](#automatic-readme-generation-github-action-workflow) sections after creating the profile repository in [Make the profile README repository](#make-the-profile-readme-repository)
 
 ## Table of Contents
 - [Dynamic GitHub Profile](#dynamic-github-profile)
@@ -226,6 +226,8 @@ The final two pieces are the full template and the GitHub action workflow file.
     touch README.md.tpl
     ```
 4. Enter the full template code:
+
+
 ```markdown
 # Hi there, I'm Daniel! :wave:
 
