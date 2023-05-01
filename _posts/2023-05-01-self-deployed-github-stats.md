@@ -20,28 +20,12 @@ Luckily, there is an easy fix. The project is open-source, and it is very easy t
 running the stats tracker with our own GitHub Personal Access Token.
 
 ## Table of Contents
-- [Dynamic GitHub Profile](#dynamic-github-profile)
+- [Self-Deployed GitHub Stats](#self-deployed-github-stats)
   - [Table of Contents](#table-of-contents)
-- [What is a GitHub profile README](#what-is-a-github-profile-readme)
-- [How to make a dynamic profile README](#how-to-make-a-dynamic-profile-readme)
-  - [Make the profile README repository](#make-the-profile-readme-repository)
-  - [Header + Emojis](#header--emojis)
-  - [Profile Widgets](#profile-widgets)
-    - [GitHub Statistics Widget](#github-statistics-widget)
-      - [Widget Code](#widget-code)
-      - [Widget Appearance](#widget-appearance)
-    - [Top Languages Widget](#top-languages-widget)
-      - [Widget Code](#widget-code-1)
-      - [Widget Appearance](#widget-appearance-1)
-  - [Badges](#badges)
-    - [Badges Code](#badges-code)
-    - [Badges Appearance](#badges-appearance)
-  - [Dynamic GitHub + Blog Activity Tracking](#dynamic-github--blog-activity-tracking)
-    - [GitHub Pages RSS Tracking](#github-pages-rss-tracking)
-    - [GitHub Contributions Tracking](#github-contributions-tracking)
-- [Full dynamic README generation template](#full-dynamic-readme-generation-template)
-- [Automatic README generation GitHub action workflow](#automatic-readme-generation-github-action-workflow)
-  - [Add personal access token to action](#add-personal-access-token-to-action)
+  - [Fork the GitHub Stats repository](#fork-the-github-stats-repository)
+  - [Create a new GitHub Personal Access Token](#create-a-new-github-personal-access-token)
+  - [Create Vercel instance](#create-vercel-instance)
+  - [Update the GitHub profile README template](#update-the-github-profile-readme-template)
 
 
 ## Fork the GitHub Stats repository
