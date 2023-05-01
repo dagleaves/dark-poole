@@ -115,7 +115,7 @@ I embed the widget in an HTML `<img>` tag in order to customize the alignment an
 
 
 **WARNING:** With the number of people that use this widget, it does sometimes get rate-limited and will be down for an hour.
-If you want to avoid this, you can self-host your own instance of the app by following the instructions in [this post]({% post_url 2023-05-01-self-deployed-github-stats %})
+If you want to avoid this, you can self-host your own instance of the app by following the instructions in [this post]({% post_url 2023-05-01-self-deployed-github-stats %}).
 
 #### Widget Code
 
