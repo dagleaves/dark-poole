@@ -5,7 +5,7 @@ title: Self-Deployed GitHub Stats
 
 # Self-Deployed GitHub Stats
 
-After creating the [Dynamic GitHub Profile](2023-04-30-dynamic-github-profile.md) in the previous post, I noticed
+After creating the [Dynamic GitHub Profile]({% post_url 2023-04-30-dynamic-github-profile %}) in the previous post, I noticed
 that my profile widgets were broken the next morning. Very strange, but I looked into the repo's
 [issues](https://github.com/anuraghazra/github-readme-stats/issues/1471) and discovered that this can happen when
 the host's Vercel instance that is running the stats tracker gets rate limited from getting more uncached requests
